@@ -1,0 +1,23 @@
+body {
+  background-color: darkgrey;
+}
+.start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  width: 300px;
+  height: 300px;
+  margin: 30px auto;
+  background-color: darkolivegreen;
+}
+.start-no {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  width: 300px;
+  height: 300px;
+  margin: 30px auto;
+  background-color: darkolivegreen;
+}

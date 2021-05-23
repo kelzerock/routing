@@ -80,10 +80,10 @@
             };
          }
          
-         function add() {
+         function add(score, fName, lName, email) {
             var request = db.transaction(["match-game"], "readwrite")
             .objectStore("match-game")
-            .add({ id: "00-03", name: "Kenny", age: 19, email: "kenny@planet.org" });
+            .add({ score: score, Firstname: fName, Lastname: lName,email: email });
             
             request.onsuccess = function(event) {
                alert("Kenny has been added to your database.");

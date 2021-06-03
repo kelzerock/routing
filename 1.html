@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .sup {
+      width: 50px;
+      height: 50px;
+      margin: 10px;
+      background-color: aqua;
+    }
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="sup" data-s="1"></div>
+  <div class="sup" data-s="2"></div>
+  <div class="sup" data-s="3"></div>
+  <div class="sup" data-s="4"></div>
+  <script>
+    let arr = document.querySelectorAll('.sup')
+    arr.forEach((item)=>{
+      item.addEventListener('click', function(event){
+        console.log(event.target)
+      })
+    })
+
+  </script>
+</body>
+</html>

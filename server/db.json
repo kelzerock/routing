@@ -1,0 +1,40 @@
+{
+  "Employee": [
+    {
+      "name": "aleksei",
+      "salary": 21000,
+      "active": true,
+      "role": "developer",
+      "id": 1,
+      "tank": "cheked"
+    },
+    {
+      "name": "vasuua",
+      "salary": 19000,
+      "active": false,
+      "id": 3,
+      "role": "manager"
+    },
+    {
+      "name": "kolia",
+      "salary": 19000,
+      "active": false,
+      "id": 3,
+      "role": "manager"
+    },
+    {
+      "name": "maria",
+      "role": "director",
+      "salary": 5400,
+      "active": false,
+      "id": 5
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "emploeesId": 1,
+      "messedge": "hello"
+    }
+  ]
+}

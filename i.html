@@ -32,7 +32,7 @@
          
          request.onsuccess = function(event) {
             db = request.result;
-            console.log("success: "+ db);
+            console.log("success: "+ db +typeof(db));
          };
          
          request.onupgradeneeded = function(event) {

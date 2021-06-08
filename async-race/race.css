@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body  {
+  background-color:darkgrey;
+}
+.wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+  height: 100vh;
+  background-color: darkkhaki;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+header {
+  width: 100%;
+  height: 50px;
+  background-color: darkorange;
+}
+.garage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  border: darkred solid 1px;
+}
+.setting-block {
+  background-color: darkviolet;
+  flex-direction: column;
+  height: 100px;
+}
+.garage-block {
+  height: 200px;
+  border: solid black 1px;
+  width: 100%;
+  background-color: cadetblue;
+}
+.garage-pages {
+  background-color: burlywood;
+  height: 30px;
+  width: 100%;
+}
+
+
+.winners {
+  display: none;
+}
